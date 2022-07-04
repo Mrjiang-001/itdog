@@ -8,3 +8,5 @@ mybatis-plus:
     banner: false  #管理mybatis的banner
     id-type: 0  # id-type数据库自增
     mapper-locations: classpath:mapping/*Mapper.xml  #mybatis-plus 映射文件地址  自定义的sql  XML文件位置
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl

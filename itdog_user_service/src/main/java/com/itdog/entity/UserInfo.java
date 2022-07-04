@@ -83,9 +83,9 @@ public class UserInfo  implements Serializable {
     /**
      * 是否锁定
      */
-    @TableField(value = "lock",fill = FieldFill.INSERT)
+    @TableField(value = "is_lock",fill = FieldFill.INSERT)
     @ApiModelProperty("是否锁定")
-    private Integer lock;
+    private Integer isLock;
 
     /**
      * 是否有效
@@ -111,5 +111,4 @@ public class UserInfo  implements Serializable {
     @ApiModelProperty("修改密码时间")
     private Date modifyPwdTime;
 
-    public UserInfo() {}
 }
