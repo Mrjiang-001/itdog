@@ -1,4 +1,4 @@
-package com.iddog.util;
+package com.itdog.util;
 
 
 import java.io.Serializable;

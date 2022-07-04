@@ -1,4 +1,4 @@
-package com.iddog.util;
+package com.itdog.util;
 
 /**
  * 功能描述: 统一 Response 状态码

@@ -1,19 +1,10 @@
 package com.itdog.dao;
 
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.itdog.entity.UserInfo;
+import org.springframework.stereotype.Repository;
 
-public interface UserInfoMapper {
-    int deleteByPrimaryKey(Long id);
+@Repository
+public interface UserInfoMapper extends BaseMapper<UserInfo> {
 
-    int insert(UserInfo record);
-
-    int insertSelective(UserInfo record);
-
-    UserInfo selectByPrimaryKey(Long id);
-
-    int updateByPrimaryKeySelective(UserInfo record);
-
-    int updateByPrimaryKeyWithBLOBs(UserInfo record);
-
-    int updateByPrimaryKey(UserInfo record);
 }
