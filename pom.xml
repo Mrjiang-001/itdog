@@ -8,7 +8,11 @@
         <module>itdog_common</module>
         <module>itdog_investigation_web</module>
         <module>itdog_user_service</module>
+        <module>mybatisplus-genertic-code</module>
     </modules>
+    
+    
+    
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
